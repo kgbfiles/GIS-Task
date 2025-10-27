@@ -5,10 +5,7 @@ An interactive web map displaying Abu Dhabi parks & Hospital using ArcGIS Maps S
 ## Features
 
 - **Interactive Map**: Street basemap centered on Abu Dhabi
-- **Parks Layer**: Abu Dhabi parks from ArcGIS REST service
-- **Popup Information**: Click parks to view details
-- **Zoom Controls**: Navigate and explore the map
-- **Responsive Design**: Works on desktop and mobile
+- **Parks & Hospital Layer**: Abu Dhabi parks from ArcGIS REST service
 
 ## Technologies Used
 
