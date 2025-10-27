@@ -1,4 +1,4 @@
-# GIS Task - Abu Dhabi Parks Map
+# GIS Task - Abu Dhabi Parks & Hospitals Map
 
 An interactive web map displaying Abu Dhabi parks & Hospital using ArcGIS Maps SDK for JavaScript.
 
