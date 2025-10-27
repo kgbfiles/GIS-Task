@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ArcGIS Search & Filter Map</title>
+  <style>
+    html, body, #viewDiv {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    #searchDiv {
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: white;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+      z-index: 10;
+    }
+    #searchInput {
+      width: 200px;
+      padding: 5px;
+    }
+    #searchBtn {
+      padding: 5px 10px;
+    }
+  </style>
+
+  <script src="https://js.arcgis.com/4.34/"></script>
+</head>
+<body>
+  <div id="viewDiv"></div>
+
+  <div id="searchDiv">
+    <input type="text" id="searchInput" placeholder="Type 'show parks' or 'find hospitals'"/>
+    <button id="searchBtn">Search</button>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
